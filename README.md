@@ -1,6 +1,8 @@
 # bundesAPI Claude Skills
 
-Claude Skills for German government APIs from [bundesAPI](https://github.com/bundesAPI).
+Claude Skills for German government APIs, based on the open-source API wrappers from [bundesAPI](https://github.com/bundesAPI).
+
+This is an independent project and is not affiliated with, endorsed by, or officially connected to any German government agency or the bundesAPI organization.
 
 ## Skills
 
