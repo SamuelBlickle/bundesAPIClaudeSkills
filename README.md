@@ -13,6 +13,19 @@ This is an independent project and is not affiliated with, endorsed by, or offic
 | [autobahn](autobahn/) | Autobahn API | Highway traffic: roadworks, warnings, closures, webcams, charging stations |
 | [hilfsmittel](hilfsmittel/) | GKV Hilfsmittelverzeichnis | Assistive devices covered by statutory health insurance |
 
+## Required network access
+
+These domains must be reachable from the Claude execution environment:
+
+| Skill | Domains |
+|---|---|
+| handelsregister | `www.handelsregister.de` |
+| abfallnavi | `{region}-abfallapp.regioit.de` (e.g. `nuernberg-abfallapp.regioit.de`) |
+| autobahn | `verkehr.autobahn.de` |
+| hilfsmittel | `hilfsmittel-api.gkv-spitzenverband.de` |
+
+Additionally, `handelsregister` requires access to `pypi.org` for auto-installing dependencies on first run.
+
 ## Structure
 
 Each skill contains:
