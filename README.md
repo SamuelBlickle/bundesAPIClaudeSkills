@@ -40,25 +40,6 @@ Each skill contains:
 - `search.py` — Self-contained CLI wrapper, always outputs JSON
 - `searching-*.zip` — Ready-to-upload zip for the Claude UI
 
-## Usage
-
-All skills (except handelsregister) require no external dependencies.
-
-```bash
-# Autobahn roadworks
-python3 autobahn/search.py services A1 roadworks
-
-# Waste collection dates in Nuernberg
-python3 abfallnavi/search.py orte
-python3 abfallnavi/search.py termine --hausnummern-id 7049829 --fraktion 0
-
-# Assistive devices catalog
-python3 hilfsmittel/search.py tree 1
-
-# Company lookup (auto-installs mechanize + beautifulsoup4)
-python3 handelsregister/search.py -s "Deutsche Bahn" -so all
-```
-
 ## Disclaimer
 
 This software is provided "as is", without warranty of any kind. The underlying APIs are operated by third parties and may change or become unavailable at any time. No guarantee is made regarding correctness, completeness, or availability of the returned data. Use at your own risk.
