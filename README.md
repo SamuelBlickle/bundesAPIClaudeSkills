@@ -26,6 +26,13 @@ These domains must be reachable from the Claude execution environment:
 
 Additionally, `handelsregister` requires access to `pypi.org` for auto-installing dependencies on first run.
 
+## Installation
+
+1. Download the `searching-*.zip` from the skill folder you want to use
+2. Go to [claude.ai](https://claude.ai) → Settings → Skills
+3. Click "Add Skill" and upload the zip file
+4. Claude will automatically discover and use the skill when relevant
+
 ## Structure
 
 Each skill contains:
