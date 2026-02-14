@@ -51,3 +51,7 @@ python3 hilfsmittel/search.py tree 1
 # Company lookup (auto-installs mechanize + beautifulsoup4)
 python3 handelsregister/search.py -s "Deutsche Bahn" -so all
 ```
+
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind. The underlying APIs are operated by third parties and may change or become unavailable at any time. No guarantee is made regarding correctness, completeness, or availability of the returned data. Use at your own risk.
