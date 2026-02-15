@@ -8,13 +8,13 @@ This is an independent project and is not affiliated with, endorsed by, or offic
 
 | Skill | API | Description |
 |---|---|---|
-| [handelsregister](handelsregister/) | handelsregister.de | Company lookup (name, register number, legal form, status) |
 | [abfallnavi](abfallnavi/) | Abfallnavi REST API | Waste collection schedules for 19 municipalities |
 | [autobahn](autobahn/) | Autobahn API | Highway traffic: roadworks, warnings, closures, webcams, charging stations |
+| [dwd](dwd/) | DWD Warnwetter | Weather forecasts, warnings, and crowd reports from Deutscher Wetterdienst |
+| [handelsregister](handelsregister/) | handelsregister.de | Company lookup (name, register number, legal form, status) |
 | [hilfsmittel](hilfsmittel/) | GKV Hilfsmittelverzeichnis | Assistive devices covered by statutory health insurance |
 | [nina](nina/) | NINA Warn-API (BBK) | Civil protection warnings: weather, floods, hazardous substances, police alerts |
 | [pegel-online](pegel-online/) | Pegel-Online (WSV) | Water levels, discharge, and temperature at federal waterway gauges |
-| [dwd](dwd/) | DWD Warnwetter | Weather forecasts, warnings, and crowd reports from Deutscher Wetterdienst |
 
 ## Required network access
 
@@ -22,13 +22,13 @@ These domains must be reachable from the Claude execution environment:
 
 | Skill | Domains |
 |---|---|
-| handelsregister | `www.handelsregister.de` |
 | abfallnavi | `{region}-abfallapp.regioit.de` (e.g. `nuernberg-abfallapp.regioit.de`) |
 | autobahn | `verkehr.autobahn.de` |
+| dwd | `app-prod-ws.warnwetter.de`, `s3.eu-central-1.amazonaws.com` |
+| handelsregister | `www.handelsregister.de` |
 | hilfsmittel | `hilfsmittel-api.gkv-spitzenverband.de` |
 | nina | `warnung.bund.de` |
 | pegel-online | `www.pegelonline.wsv.de` |
-| dwd | `app-prod-ws.warnwetter.de`, `s3.eu-central-1.amazonaws.com` |
 
 Additionally, `handelsregister` requires access to `pypi.org` for auto-installing dependencies on first run.
 
