@@ -15,6 +15,7 @@ This is an independent project and is not affiliated with, endorsed by, or offic
 | [hilfsmittel](hilfsmittel/) | GKV Hilfsmittelverzeichnis | Assistive devices covered by statutory health insurance |
 | [nina](nina/) | NINA Warn-API (BBK) | Civil protection warnings: weather, floods, hazardous substances, police alerts |
 | [pegel-online](pegel-online/) | Pegel-Online (WSV) | Water levels, discharge, and temperature at federal waterway gauges |
+| [travelwarning](travelwarning/) | Auswärtiges Amt OpenData | Travel warnings, security advisories, and embassy information |
 
 ## Required network access
 
@@ -29,6 +30,7 @@ These domains must be reachable from the Claude execution environment:
 | hilfsmittel | `hilfsmittel-api.gkv-spitzenverband.de` |
 | nina | `warnung.bund.de` |
 | pegel-online | `www.pegelonline.wsv.de` |
+| travelwarning | `www.auswaertiges-amt.de` |
 
 Additionally, `handelsregister` requires access to `pypi.org` for auto-installing dependencies on first run.
 
