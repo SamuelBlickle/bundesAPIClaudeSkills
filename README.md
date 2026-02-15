@@ -14,6 +14,7 @@ This is an independent project and is not affiliated with, endorsed by, or offic
 | [hilfsmittel](hilfsmittel/) | GKV Hilfsmittelverzeichnis | Assistive devices covered by statutory health insurance |
 | [nina](nina/) | NINA Warn-API (BBK) | Civil protection warnings: weather, floods, hazardous substances, police alerts |
 | [pegel-online](pegel-online/) | Pegel-Online (WSV) | Water levels, discharge, and temperature at federal waterway gauges |
+| [dwd](dwd/) | DWD Warnwetter | Weather forecasts, warnings, and crowd reports from Deutscher Wetterdienst |
 
 ## Required network access
 
@@ -27,6 +28,7 @@ These domains must be reachable from the Claude execution environment:
 | hilfsmittel | `hilfsmittel-api.gkv-spitzenverband.de` |
 | nina | `warnung.bund.de` |
 | pegel-online | `www.pegelonline.wsv.de` |
+| dwd | `app-prod-ws.warnwetter.de`, `s3.eu-central-1.amazonaws.com` |
 
 Additionally, `handelsregister` requires access to `pypi.org` for auto-installing dependencies on first run.
 
@@ -47,3 +49,5 @@ Each skill contains:
 ## Disclaimer
 
 This software is provided "as is", without warranty of any kind. The underlying APIs are operated by third parties and may change or become unavailable at any time. No guarantee is made regarding correctness, completeness, or availability of the returned data. Use at your own risk.
+
+Where code or components from [bundesAPI](https://github.com/bundesAPI) or other third-party projects are included, all rights remain with their respective authors and license terms.
