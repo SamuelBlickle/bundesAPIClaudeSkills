@@ -12,6 +12,7 @@ This is an independent project and is not affiliated with, endorsed by, or offic
 | [abfallnavi](abfallnavi/) | Abfallnavi REST API | Waste collection schedules for 19 municipalities |
 | [autobahn](autobahn/) | Autobahn API | Highway traffic: roadworks, warnings, closures, webcams, charging stations |
 | [hilfsmittel](hilfsmittel/) | GKV Hilfsmittelverzeichnis | Assistive devices covered by statutory health insurance |
+| [nina](nina/) | NINA Warn-API (BBK) | Civil protection warnings: weather, floods, hazardous substances, police alerts |
 
 ## Required network access
 
@@ -23,6 +24,7 @@ These domains must be reachable from the Claude execution environment:
 | abfallnavi | `{region}-abfallapp.regioit.de` (e.g. `nuernberg-abfallapp.regioit.de`) |
 | autobahn | `verkehr.autobahn.de` |
 | hilfsmittel | `hilfsmittel-api.gkv-spitzenverband.de` |
+| nina | `warnung.bund.de` |
 
 Additionally, `handelsregister` requires access to `pypi.org` for auto-installing dependencies on first run.
 
